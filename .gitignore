@@ -1,0 +1,5 @@
+venv/
+.env
+run_flight_tracker.bat
+__pycache__/
+log_from_scheduler.txt
