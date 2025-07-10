@@ -8,7 +8,7 @@ API_KEY = os.getenv("FLIGHTAPI_KEY")
 
 def get_flight_price(origin, destination, departure_date):
     # Basic roundtrip or oneway request
-    base_url = f"https://api.flightapi.io/roundtrip/{API_KEY}/{origin}/{destination}/{departure_date}/1/0/0/Economy/USD"
+    
     
     # if not return_date:
     resp = requests.get(f"https://api.flightapi.io/onewaytrip/{API_KEY}/{origin}/{destination}/{departure_date}/1/0/0/Economy/INR")
