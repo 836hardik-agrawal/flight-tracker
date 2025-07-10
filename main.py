@@ -4,8 +4,7 @@ from notifier import send_telegram_notification
 def main():
     origin = "BLR"
     destination = "DEL"
-    departure_date = "2025-10-17"
-    return_date = None  # Or "2025-09-25" for roundtrip
+    departure_date = "2025-10-17" 
     target_price = 9500  # INR or USD based on your request
 
     price = get_flight_price(origin, destination, departure_date)
